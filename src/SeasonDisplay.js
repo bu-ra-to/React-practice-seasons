@@ -2,8 +2,8 @@ import './SeasonDisplay.css';
 import React from 'react';
 
 const seasonConfig = {
-  summer: { text: "It' Wildwood time", iconName: 'sun' },
-  winter: { text: 'Breath MotherF*er!', iconName: 'snowflake' }
+  summer: { text: 'Summertime sadness', iconName: 'sun' },
+  winter: { text: 'Winter Is Coming', iconName: 'snowflake' }
 };
 const getSeason = (lat, month) => {
   if (month > 2 && month < 9) {
